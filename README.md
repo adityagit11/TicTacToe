@@ -9,7 +9,8 @@ using System.Diagnostics;
 
 Process process = new Process();
 // Set the file name of the application to start.
-process.StartInfo.FileName = "C:\\Workstation\\Ventures\\bin\\Debug\\FileScramblerV1.0.exe";
+process.StartInfo.FileName = "C:\\Workstation\\SomeFile.exe";
+process.StartInfo.FileName = "https://github.com/adityagit11";
 process.StartInfo.Arguments = "-n";
 process.Start();
 process.WaitForExit();
